@@ -4,12 +4,11 @@ After=network.target
 RequiresMountsFor=/run
 
 [Service]
-Type=notify
+Type=simple
 NotifyAccess=main
-EnvironmentFile=-/etc/default/udp-broadcast-relay
-ExecStart=/usr/sbin/udp-broadcast-relay $DAEMON_ARGS
+EnvironmentFile=-/etc/default/udp-broadcast-relay%I
+ExecStart=/usr/sbin/udp-broadcast-relay %I $DAEMON_ARGS
 Restart=on-failure
-Type=forking
 
 [Install]
 WantedBy=multi-user.target
