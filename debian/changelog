@@ -1,0 +1,5 @@
+udp-broadcast-relay (0.1+vyos2+current0) unstable; urgency=medium
+
+  * Initial support for Debian Packaging w/ VyOS
+
+ -- Christian Poessinger <christian@poessinger.com>  Sat, 30 Dec 2017 18:00:55 +0100

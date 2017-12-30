@@ -1,0 +1,27 @@
+Source: udp-broadcast-relay
+Section: net
+Priority: optional
+Maintainer: Christian Poessinger <christian@poessinger.com>
+Build-Depends: debhelper (>= 5),
+               pkg-config,
+               dh-systemd (>= 1.5)
+Standards-Version: 3.9.6
+Vcs-Git: http://github.com/c-po/udp-broadcast-relay
+Homepage: http://github.com/c-po/udp-broadcast-relay
+
+Package: udp-broadcast-relay
+Architecture: linux-any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: UDP Broadcast Packet Relay
+ This program listens for packets on a specified UDP broadcast port. When
+ a packet is received, it sends that packet to all specified interfaces
+ but the one it came from as though it originated from the original
+ sender.
+ .
+ The primary purpose of this is to allow games on machines on separated
+ local networks (Ethernet, WLAN) that use udp broadcasts to find each
+ other to do so.
+ .
+ It also works on ppp links, so you can log in from windows boxes (e.g.
+ using pptp) and play LAN-based games together. Currently, you have to
+ care about upcoming or downgoing interfaces yourself.

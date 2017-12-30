@@ -1,0 +1,8 @@
+*.o
+_version
+udp-broadcast-relay
+udp-broadcast-relay-*.zip
+build-stamp
+
+debian/files
+debian/udp-broadcast-relay.*
