@@ -7,7 +7,7 @@ RequiresMountsFor=/run
 Type=simple
 NotifyAccess=main
 EnvironmentFile=-/etc/default/udp-broadcast-relay%I
-ExecStart=/usr/sbin/udp-broadcast-relay %I $DAEMON_ARGS
+ExecStart=/usr/sbin/udp-broadcast-relay $DAEMON_ARGS
 Restart=on-failure
 
 [Install]
