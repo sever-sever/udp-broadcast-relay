@@ -1,3 +1,9 @@
+udp-broadcast-relay (0.1+vyos2+current1) unstable; urgency=medium
+
+  * Support systemd instanced service units
+
+ -- Christian Poessinger <christian@poessinger.com>  Sat, 06 Jan 2018 12:47:07 +0100
+
 udp-broadcast-relay (0.1+vyos2+current0) unstable; urgency=medium
 
   * Initial support for Debian Packaging w/ VyOS
