@@ -1,3 +1,9 @@
+udp-broadcast-relay (0.1+vyos3+equuleus1) unstable; urgency=medium
+
+  * New branch.
+
+ -- Daniil Baturin <daniil@baturin.org>  Tue, 23 Jul 2019 03:38:03 -0400
+
 udp-broadcast-relay (0.1+vyos2+current1) unstable; urgency=medium
 
   * Support systemd instanced service units

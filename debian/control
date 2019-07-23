@@ -2,9 +2,8 @@ Source: udp-broadcast-relay
 Section: net
 Priority: optional
 Maintainer: Christian Poessinger <christian@poessinger.com>
-Build-Depends: debhelper (>= 5),
+Build-Depends: debhelper (>= 9.2),
                pkg-config,
-               dh-systemd (>= 1.5)
 Standards-Version: 3.9.6
 Vcs-Git: http://github.com/c-po/udp-broadcast-relay
 Homepage: http://github.com/c-po/udp-broadcast-relay
