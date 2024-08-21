@@ -1,3 +1,9 @@
+udp-broadcast-relay (0.1+vyos4+circinus1) unstable; urgency=medium
+
+  * Set circinus tag
+
+ -- Viacheslav Hletenko <v.gletenko@vyos.io>  Wed, 21 Aug 2024 15:57:14 +0300
+
 udp-broadcast-relay (0.1+vyos3+equuleus1) unstable; urgency=medium
 
   * New branch.
