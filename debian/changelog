@@ -1,3 +1,9 @@
+udp-broadcast-relay (0.1+vyos4+sagitta1) unstable; urgency=medium
+
+  * Set sagitta tag
+
+ -- Viacheslav Hletenko <v.gletenko@vyos.io>  Wed, 21 Aug 2024 16:22:02 +0300
+
 udp-broadcast-relay (0.1+vyos3+equuleus1) unstable; urgency=medium
 
   * New branch.
